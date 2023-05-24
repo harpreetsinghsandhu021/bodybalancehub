@@ -1,0 +1,38 @@
+.article__card {
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.article__card img {
+  width: 30rem;
+  height: auto;
+}
+.cnt {
+  padding-left: 1.8rem;
+}
+.cnt h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.cnt p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 57.25em) {
+  .article__card img {
+    width: 20rem;
+    height: auto;
+  }
+  .cnt h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 0.4rem;
+  }
+  .cnt p {
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
